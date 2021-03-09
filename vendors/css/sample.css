@@ -13,6 +13,11 @@ body {
   background-attachment: fixed;
 }
 /* ここから */
+/* .clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+} */
 header {
   background-color: #434343;
   height: 50px;
@@ -35,21 +40,23 @@ header li {
 }
 }
 header ul:after {
-  text-align: right;
+  /* text-align: right; */
 }
 .left {
   float: left;
-  text-align: left;
-  margin: 1px 5px;
+  text-align: justify;
+  margin: 5px 10px;
 }
 .right {
   float: right;
-  text-align: right;
-  margin: 1px 5px;
-  display: flex;
+  text-align: justify;
+  margin: 5px 10px;
 }
 /* ここまでがheader部分の実装 */
 .main-header img {
+  width: 25%; height: 200px;
+  object-fit: contain;
+}
 /* main画像（白い「Achieve」の文字の画像）部分の実装 */
 }
 .about {
@@ -64,13 +71,12 @@ header ul:after {
 }
 /* ここまでがfunction部分の実装 */
 footer {
-  background-color: #143d66;
+  color: white;
+  background-color: #203744;
+  font-size: 8px;
+  padding: 10px 0;
 /* footer部分の実装 */
 }
 footer p {
-  color: white;
-  font-size: 10px;
-  height: 1.5rem;
-  /* コメvertical-align: bottom; */
 }
 /* ここに書かれているcssの記述はあくまでヒントとして用意された雛形なので、書かれている記述に従わずに実装したいという場合
