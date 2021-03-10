@@ -85,6 +85,9 @@ ul {
   padding: 1rem;
   font-size: 1.3rem;
 }
+.contactstyle {
+  margin-bottom: 100px;
+}
 .side_menu li:hover {
   opacity: 0.6;
 }
@@ -94,7 +97,6 @@ ul {
 .side_menu .point a{
   color: #4D4D4D;
 }
-/* sumitbuttonに条件を効かせたい */
 .submit {
   height: 40px;
   width: 80px;
@@ -106,9 +108,8 @@ ul {
 .submit:hover {
   opacity: 0.5;
   }
-.area {
-  /* width: 100%; */
-}
+/* .area {
+} */
 .footer {
   background-color: #4d4d4d;
   height: 100px;
