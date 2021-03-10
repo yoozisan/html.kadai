@@ -49,7 +49,7 @@ header ul:after {
 }
 /* ここまでがheader部分の実装 */
 .main-header img {
-  width: 20%; height: 70px;
+  height: 140px;
   object-fit: contain;
   padding-top: 180px;
 }
@@ -76,7 +76,7 @@ header ul:after {
 footer {
   color: white;
   background-color: #203744;
-  font-size: 8px;
+  font-size: 12px;
   padding: 10px 0;
   height: 40px;
 }
